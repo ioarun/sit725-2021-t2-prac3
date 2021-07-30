@@ -13,12 +13,30 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: #B783C3;
+  background-color: #839ac3;
 
 }
 
+.container .about {
+ padding-top: 5px;
+ display : flex;
+ flex-direction : row;
+  
+}
+
+.container .about .about-cell.box1 {
+  padding-top: 35px;
+  background:#839ac3;
+  color:white;
+}
+.container .about .about-cell.box2 {
+  padding-left: 25px;
+  background:#839ac3;
+  text-align:justify
+}
+
 .page-footer{
-  background-color: #9E65A9;
+  background-color: #3a7fce;
 }
 main {
   flex: 1 0 auto;
