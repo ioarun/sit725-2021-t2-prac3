@@ -17,24 +17,10 @@ body {
 
 }
 
-.container .about {
- padding-top: 5px;
- display : flex;
- flex-direction : row;
-  
+.social-size{
+  width: 15%;
+  height: 15%;
 }
-
-.container .about .about-cell.box1 {
-  padding-top: 35px;
-  background:#839ac3;
-  color:white;
-}
-.container .about .about-cell.box2 {
-  padding-left: 25px;
-  background:#839ac3;
-  text-align:justify
-}
-
 .page-footer{
   background-color: #3a7fce;
 }
